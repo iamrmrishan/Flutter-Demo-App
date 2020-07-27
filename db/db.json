@@ -1,0 +1,25 @@
+{
+	"users":{
+		"patient": {
+				"one":{
+					"name": "Chiran HW",
+					"email" : "cmadusankahw@gmail.com",
+					"contact_no": "0719725562",
+					"age" : 24,
+					"gender": "male",
+					"location": "Matara",
+					""
+				}
+			},
+		"healthServiceProvider": {
+			"one": {
+				"name" : "Asiri Hospitals",
+				"email": "asiri@gmail.com",
+				"contact no": "0412222456",
+				"address":"Anagarika Darmapala Rd, Matara",
+				"location": "Matara",
+				
+			}
+		}
+		}
+}
