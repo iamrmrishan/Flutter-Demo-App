@@ -1,6 +1,6 @@
-# myNewApp
+# MobiAssist
 
-A new Flutter project.
+An innovative Healthcare Assistant Usinf Flutter & Firebase for MOle Application Development module, hackathon.
 
 ## Getting Started
 
