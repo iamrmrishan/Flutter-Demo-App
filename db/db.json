@@ -1,25 +1,87 @@
 {
 	"users":{
 		"patient": {
-				"one":{
+				"1":{
 					"name": "Chiran HW",
 					"email" : "cmadusankahw@gmail.com",
 					"contact_no": "0719725562",
 					"age" : 24,
 					"gender": "male",
 					"location": "Matara",
-					""
+                    "disease_category" : "Heart Problem",
+                    "disease_description": "sample description"
 				}
 			},
 		"healthServiceProvider": {
-			"one": {
+			"1": {
 				"name" : "Asiri Hospitals",
 				"email": "asiri@gmail.com",
 				"contact no": "0412222456",
 				"address":"Anagarika Darmapala Rd, Matara",
 				"location": "Matara",
-				
+				"doctors": {
+                    "1": {
+                        "name": "Dr.Sujeewa Serasingle",
+                        "designation": "MBBS",
+                        "speciality": "Neurologist Consultant",
+                        "visit_dates": ["Monday" ,"Friday"],
+                        "visit_time" : "17:30"
+                    }
+                }
 			}
 		}
-		}
+    },
+    "report" : {
+        "emergency": {
+            "1":{
+                "category": "Heart stroke",
+                "location": {
+                    "lat": 6.56789,
+                    "lang": 7.11234,
+                    "string":"Matara"
+                }
+            }
+        },
+        "injury": {
+            "1":{
+                "category": "road accident",
+                "location":  {
+                    "lat": 6.56789,
+                    "lang": 7.11234,
+                    "string":"Matara"
+                },
+                "date_occured": "2020-07-27T03:55:22.255Z",
+                "description": "continuous bleeding"
+            }
+
+        },
+        "disease": {
+            "1":{
+                "category": "covid-19",
+                "location":  {
+                    "lat": 6.56789,
+                    "lang": 7.11234,
+                    "string":"Matara"
+                },
+                "date_occured": "2020-07-27T03:55:22.255Z",
+                "description": "breathing disabilities"
+            }
+
+
+        }
+    },
+    "healthCare_tips": {
+        "disease": {
+            "1" : {
+                "disease": "High Blood Pressure",
+                "tips": ["Have a Quick Rest", "drink Water", "Get Emergency Pillars"]
+            }
+        },
+        "incident": {
+            "1": {
+                "incident":"Road Accident",
+                "tips":[ "Cover the bleeding wumbs with clean clothe piece", "Provide Recisitation if necessary"]
+            }
+        }
+    }
 }
